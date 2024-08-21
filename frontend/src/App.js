@@ -1,7 +1,7 @@
 import './App.css'
 import Main from './components/Main/Main';
 import {BrowserRouter , Routes,Route } from 'react-router-dom';
-import Header from './components/Header/Header';
+import Heade from './components/Header/Header';
 import Signin from './components/Auth/Signin';
 import Signup from './components/Auth/Signup';
 
