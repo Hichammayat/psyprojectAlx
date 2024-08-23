@@ -14,7 +14,7 @@
     font-family: 'Inter', sans-serif;
   }
   .stroke-text{
-    colo: transparent;
+    color: transparent;
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
