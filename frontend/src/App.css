@@ -3,7 +3,7 @@
     mix-blend-mode: overlay;
     background-color: #D9D9D9;
     display: flex;
-    flex-direction: column;
+    flex-diretion: column;
     
     overflow: hidden;
   }
