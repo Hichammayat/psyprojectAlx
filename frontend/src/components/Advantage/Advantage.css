@@ -1,0 +1,54 @@
+.advantage{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.advantage-Header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.advantage-details{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    background-color: #3c3f45;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.details:hover{
+    background: #ff00aa;
+    cursor: pointer;
+}
+.details>:nth-child(1){
+    font-size: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    /* Styles for screens 768px or smaller */
+    .advantage {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0 1rem;
+    }
+    .advantage-Header {
+        font-size: 2rem;
+    }
+    .advantage-details {
+        grid-template-columns: 1fr;
+    }
+    .details {
+        padding: 1rem;
+    }
+}
