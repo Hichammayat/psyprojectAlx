@@ -1,0 +1,64 @@
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+.auth>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.a-left{
+    gap: 2rem;
+}
+.a-left>img{
+    width: 4rem;
+    height: 4rem;
+}
+.info-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.infoinput{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    
+}
+.info-form>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.infoButton{
+    color: black;
+    background-color: white;
+    width: 8rem;
+    border: 2px solid black;
+    font-weight: bold;
+    transition: 300ms all;
+}
+.infoButton:hover{
+    color: black;
+   background-color: #ff00aa;
+   width: 8rem;
+   border: 2px solid black;
+}
+.span-form{
+    font-size: 12px;
+}
