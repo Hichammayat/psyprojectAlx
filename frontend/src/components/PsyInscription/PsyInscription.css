@@ -1,0 +1,35 @@
+.PsyInscription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+.info-Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #3c3f45;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.info-Form>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.info-Form>input{
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    
+}

@@ -1,0 +1,39 @@
+.Inscription{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+    margin-top: 40px;
+    height: 150px;
+}
+.left-I{
+    color: black;
+
+}
+.left-I>hr{
+    position: absolute;
+    width: 70.5rem;
+    border: 2px solid pink;
+    border-radius: 20%;
+    margin: -10px 0;
+}
+.right-I{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: #3c3f45;
+    padding: 1rem 2rem;
+}
+.email-container>input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+::placeholder{
+    color: white;
+}
